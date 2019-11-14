@@ -1,25 +1,22 @@
 body {
   background-color: #374d68;
 }
-header .container {
+header .main-cont {
   margin-top: 15px;
 }
-header .container .row .logo-title {
+header .main-cont .row .logo-title {
   color: white;
 }
-header .container .row .logo-title a {
+header .main-cont .row .logo-title a {
   font-weight: normal;
   text-decoration: none;
 }
-header .container .row .logo-title a:hover {
-  text-decoration: none;
-}
-header .container .row ul {
+header .main-cont .row ul {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-header .container .row ul .v-line {
+header .main-cont .row ul .v-line {
   position: relative;
   top: 5px;
   display: inline-block;
@@ -29,10 +26,10 @@ header .container .row ul .v-line {
   width: 1px;
   background: linear-gradient(to top, rgba(48, 48, 48, 0.2), #303030, rgba(48, 48, 48, 0.2));
 }
-header .container .row ul .globe {
+header .main-cont .row ul .globe {
   position: relative;
 }
-header .container .row ul .number {
+header .main-cont .row ul .number {
   position: absolute;
   font-size: 10px;
   right: -10px;
@@ -42,23 +39,23 @@ header .container .row ul .number {
   color: white;
   background-color: #00000081;
 }
-header .container .row ul a {
+header .main-cont .row ul a {
   text-decoration: none;
   color: #cfd4db;
 }
-header .container .row ul a:hover {
+header .main-cont .row ul a:hover {
   color: white;
 }
-header .container .row ul li {
+header .main-cont .row ul li {
   display: inline;
   color: #cfd4db;
   padding: 0 15px;
-  font-size: 22px;
+  font-size: 20px;
 }
-header .container .row ul li:first-child {
+header .main-cont .row ul li:first-child {
   padding-left: 30px;
 }
-header .container .row .main-search {
+header .main-cont .row .main-search {
   color: white;
   padding-left: 25px;
   background: #354252;
