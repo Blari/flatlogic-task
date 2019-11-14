@@ -1,0 +1,67 @@
+body {
+  background-color: #374d68;
+}
+header .container {
+  margin-top: 15px;
+}
+header .container .row .logo-title {
+  color: white;
+}
+header .container .row .logo-title a {
+  font-weight: normal;
+  text-decoration: none;
+}
+header .container .row .logo-title a:hover {
+  text-decoration: none;
+}
+header .container .row ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+header .container .row ul .v-line {
+  position: relative;
+  top: 5px;
+  display: inline-block;
+  padding: 0;
+  margin: 0 20px;
+  height: 32px;
+  width: 1px;
+  background: linear-gradient(to top, rgba(48, 48, 48, 0.2), #303030, rgba(48, 48, 48, 0.2));
+}
+header .container .row ul .globe {
+  position: relative;
+}
+header .container .row ul .number {
+  position: absolute;
+  font-size: 10px;
+  right: -10px;
+  bottom: -2px;
+  padding: 2px 4px;
+  border-radius: 10px;
+  color: white;
+  background-color: #00000081;
+}
+header .container .row ul a {
+  text-decoration: none;
+  color: #cfd4db;
+}
+header .container .row ul a:hover {
+  color: white;
+}
+header .container .row ul li {
+  display: inline;
+  color: #cfd4db;
+  padding: 0 15px;
+  font-size: 22px;
+}
+header .container .row ul li:first-child {
+  padding-left: 30px;
+}
+header .container .row .main-search {
+  color: white;
+  padding-left: 25px;
+  background: #354252;
+  border-color: #374d68;
+  width: 200px;
+}
