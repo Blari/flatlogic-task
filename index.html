@@ -68,95 +68,128 @@
         </div>
       </div>
     </header>
-    <nav class="left-nav">
-      <div class="container-fluid">
+    <div class="block-conteiner">
+      <nav class="left-nav">
+        <ul>
+          <li>
+            <a href="#"><i class="fa fa-home"></i><span>Dashboard</span></a>
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fa fa-database"></i><span>LB Package</span
+              ><sup>4.0</sup></a
+            >
+          </li>
+          <li>
+            <a href="#" class="arrow"
+              ><i class="fa fa-pencil"></i><span>Forms</span></a
+            >
+          </li>
+          <li>
+            <a href="#" class="arrow"
+              ><i class="fa fa-area-chart"></i><span>Statistics</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="arrow-deg"
+              data-toggle="collapse"
+              data-target="#sub-menu"
+              ><i class="fa fa-magic"></i><span><b>User Interface</b></span></a
+            >
+            <ul class="sub-menu collapse show" id="sub-menu">
+              <li>
+                <a href="#"><b>Buttons</b></a>
+              </li>
+              <li><a href="#">Dialogs</a></li>
+              <li><a href="#">Notifications</a></li>
+              <li><a href="#">Icons</a></li>
+              <li><a href="#">Tabs</a></li>
+              <li><a href="#">Accordion</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="arrow"><i class="fa fa-tree"></i>Components</a>
+          </li>
+          <li>
+            <a href="#" class="arrow"><i class="fa fa-cog"></i>Tables</a>
+          </li>
+          <li>
+            <a href="#" class="arrow"><i class="fa fa-th"></i>Widgets</a>
+          </li>
+          <li>
+            <a href="#" class="arrow"><i class="fa fa-leaf"></i>Special</a>
+          </li>
+          <li>
+            <a href="#" class="arrow"
+              ><i class="fa fa-folder-open"></i>Menu Levels</a
+            >
+          </li>
+        </ul>
+        <div class="nav-sub-title">
+          <p>Labels</p>
+          <a href="#"><i class="fas fa-plus"></i></a>
+        </div>
+        <ul class="left-nav-bottom">
+          <li>
+            <a href="#"
+              ><i class="fas fa-circle yellow"></i><span>My Recent</span></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><i class="fas fa-circle grey"></i><span>Starred</span></a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fas fa-circle red"></i><span>Forms</span></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="container main-content">
+        <h2 class="page-title">
+          Buttons <small>Buttons, states and more</small>
+        </h2>
         <div class="row">
-          <div class="col-md-3">
-            <ul>
-              <li>
-                <a href="#"><i class="fa fa-home"></i><span>Dashboard</span></a>
-              </li>
-              <li>
-                <a href="#"
-                  ><i class="fa fa-database"></i><span>LB Package</span
-                  ><sup>4.0</sup></a
-                >
-              </li>
-              <li>
-                <a href="#" class="arrow"
-                  ><i class="fa fa-pencil"></i><span>Forms</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="arrow"
-                  ><i class="fa fa-area-chart"></i><span>Statistics</span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="arrow-deg"
-                  data-toggle="collapse"
-                  data-target="#sub-menu"
-                  ><i class="fa fa-magic"></i
-                  ><span><b>User Interface</b></span></a
-                >
-                <ul class="sub-menu collapse show" id="sub-menu">
-                  <li>
-                    <a href="#"><b>Buttons</b></a>
-                  </li>
-                  <li><a href="#">Dialogs</a></li>
-                  <li><a href="#">Notifications</a></li>
-                  <li><a href="#">Icons</a></li>
-                  <li><a href="#">Tabs</a></li>
-                  <li><a href="#">Accordion</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="#" class="arrow"
-                  ><i class="fa fa-tree"></i>Components</a
-                >
-              </li>
-              <li>
-                <a href="#" class="arrow"><i class="fa fa-cog"></i>Tables</a>
-              </li>
-              <li>
-                <a href="#" class="arrow"><i class="fa fa-th"></i>Widgets</a>
-              </li>
-              <li>
-                <a href="#" class="arrow"><i class="fa fa-leaf"></i>Special</a>
-              </li>
-              <li>
-                <a href="#" class="arrow"
-                  ><i class="fa fa-folder-open"></i>Menu Levels</a
-                >
-              </li>
-            </ul>
-            <div class="nav-sub-title">
-              <p>Labels</p>
-              <a href="#"><i class="fas fa-plus"></i></a>
-            </div>
-            <ul class="left-nav-bottom">
-              <li>
-                <a href="#"
-                  ><i class="fas fa-circle yellow"></i><span>My Recent</span></a
-                >
-              </li>
-              <li>
-                <a href="#"
-                  ><i class="fas fa-circle grey"></i><span>Starred</span></a
-                >
-              </li>
-              <li>
-                <a href="#"
-                  ><i class="fas fa-circle red"></i><span>Forms</span></a
-                >
-              </li>
-            </ul>
+          <div class="col-md-6">
+            <section class="button-section">
+              <header>
+                <h4>
+                  <i class="fa fa-star"></i>
+                  Default buttons
+                  <small>
+                    Classes on hover
+                  </small>
+                </h4>
+              </header>
+              <div class="btn-body">
+                <div class="btns">
+                    <button type="button" class="btn btn-secondary default">
+                        Default
+                      </button>
+                      <button type="button" class="btn btn-primary primary">Primary</button>
+                      <button type="button" class="btn btn-info info">Info</button>
+                    </div>
+                </div>
+                <div class="btn-body">
+                    <div class="btns">
+                        <button type="button" class="btn btn-success success">Success</button>
+                        <button type="button" class="btn btn-warning warning-btn">Warning</button>
+                        <button type="button" class="btn btn-danger danger-btn">Danger</button>
+                        </div>
+                    </div>
+                    <div class="btn-body">
+                        <div class="btns">
+                            <button type="button" class="btn btn-light invers">Inverse</button>
+                            </div>
+                        </div> 
+              </div>
+            </section>
           </div>
         </div>
       </div>
-    </nav>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
