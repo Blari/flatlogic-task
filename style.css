@@ -77,6 +77,7 @@ header .main-cont .row .main-search:focus {
   list-style: none;
 }
 .left-nav .container-fluid .row ul sup {
+  padding-left: 4px;
   color: #efad2c;
 }
 .left-nav .container-fluid .row ul li {
@@ -139,4 +140,50 @@ header .main-cont .row .main-search:focus {
 }
 .left-nav .container-fluid .row ul li .sub-menu li a:hover {
   background: #334861;
+}
+.left-nav .container-fluid .row .nav-sub-title {
+  margin-bottom: -10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 200px;
+}
+.left-nav .container-fluid .row .nav-sub-title p {
+  color: white;
+  padding-left: 40px;
+}
+.left-nav .container-fluid .row .nav-sub-title a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  padding-right: 22px;
+  line-height: 24px;
+}
+.left-nav .container-fluid .row .left-nav-bottom {
+  padding-top: 0;
+  margin-top: 0;
+}
+.left-nav .container-fluid .row .left-nav-bottom li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.left-nav .container-fluid .row .left-nav-bottom li a {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.left-nav .container-fluid .row .left-nav-bottom li a:hover {
+  background-color: transparent;
+}
+.left-nav .container-fluid .row .left-nav-bottom li a i {
+  font-size: 10px;
+}
+.left-nav .container-fluid .row .left-nav-bottom li a .yellow {
+  color: #efad2c;
+}
+.left-nav .container-fluid .row .left-nav-bottom li a .grey {
+  color: #666666;
+}
+.left-nav .container-fluid .row .left-nav-bottom li a .red {
+  color: #da471e;
 }
