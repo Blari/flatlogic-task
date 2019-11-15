@@ -110,7 +110,7 @@ header .main-cont .row .main-search:focus {
   position: relative;
 }
 .left-nav ul li .arrow::after {
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Pro";
   content: "\f107";
   display: inline-block;
   font-size: 13px;
@@ -125,7 +125,7 @@ header .main-cont .row .main-search:focus {
   position: relative;
 }
 .left-nav ul li .arrow-deg::after {
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Pro";
   content: "\f107";
   display: inline-block;
   font-size: 13px;
