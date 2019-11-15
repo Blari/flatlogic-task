@@ -54,7 +54,7 @@ header .main-cont .row ul li {
   display: inline;
   color: #cfd4db;
   padding: 0 12px;
-  font-size: 16px;
+  font-size: 19px;
 }
 header .main-cont .row ul li:first-child {
   padding-left: 30px;
@@ -77,6 +77,10 @@ header .main-cont .row .main-search:focus {
   width: 210px;
   padding-left: 0;
   list-style: none;
+  font-weight: 300;
+}
+.left-nav ul .activ {
+  font-weight: 600;
 }
 .left-nav ul sup {
   padding-left: 4px;
@@ -200,7 +204,7 @@ header .main-cont .row .main-search:focus {
 }
 .block-conteiner h2 {
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   font-weight: 300;
   color: #fff;
 }
@@ -221,7 +225,8 @@ header .main-cont .row .main-search:focus {
 }
 .block-conteiner .button-section header h4 {
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 .block-conteiner .button-section .btn-body {
   background-color: #566170;
