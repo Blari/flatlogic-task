@@ -8,6 +8,7 @@ header .main-cont .row .logo-title {
   color: white;
   font-weight: normal;
   text-decoration: none;
+  padding-left: 45px;
 }
 header .main-cont .row .logo-title:hover {
   text-decoration: none;
